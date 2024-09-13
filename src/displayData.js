@@ -10,7 +10,7 @@ export async function displayWeather(data) {
     {
         const temperature = data1.current_weather.temperature;
         const temperature1 = (`<p>Temperature: ${temperature}°C</p>`);
-        weatherResult.innerHTML = `<h2>Weather Data</h2>${temperature1}`;
+        weatherResult.innerHTML = `<h2>Temperature</h2>${temperature1}`;
     }else{
         weatherResult.innerHTML = '<p>No weather data available.</p>';
     }
